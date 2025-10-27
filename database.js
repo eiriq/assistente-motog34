@@ -10,11 +10,8 @@ const ashleyDB = {
   // CONFIGURAÇÕES DA API
   // ============================================
   api: {
-    url: "https://router.huggingface.co/v1/chat/completions",
-    keys: [
-      "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",
-      "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"
-    ],
+    url: "/api/chat",
+    keys: [],
     currentKeyIndex: 0,
     model: "deepseek-ai/DeepSeek-V3.2-Exp:novita",
     maxTokens: 800,
