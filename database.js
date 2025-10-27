@@ -10,7 +10,7 @@ const ashleyDB = {
   // CONFIGURAÇÕES DA API
   // ============================================
   api: {
-    url: "/api/chat",
+    url: "https://corsproxy.io/?https://router.huggingface.co/v1/chat/completions",
     keys: [],
     currentKeyIndex: 0,
     model: "deepseek-ai/DeepSeek-V3.2-Exp:novita",
@@ -455,3 +455,4 @@ Lembre-se: Você é Ashley, criada pela Comunidade G34, e existe APENAS para aju
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = ashleyDB;
 }
+
